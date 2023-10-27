@@ -240,7 +240,6 @@ int main()
     remover_palavra("corredor", &trie);
     remover_palavra("joao", &trie);
     remover_palavra("abacaxi", &trie);
-    remover_palavra("abaco", &trie);
     imprimir_palavras(&trie, palavra, 0);
     dispose_trie(&trie);
 
